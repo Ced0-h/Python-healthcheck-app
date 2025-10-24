@@ -41,3 +41,4 @@ ModuleNotFoundError: No module named 'flask'
   '''bash
   python app.py
   -you should see running on http://127.0.0.1:5000/
+DO NOT FORGET TO CREATE THE "DOCKERFILE", otherwise, you will have a problem in the buildspec.yaml when trying to build the docker file in the build phase.
